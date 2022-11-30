@@ -1,0 +1,32 @@
+
+#tablero{
+   
+    width: 700px;
+    height: 625px;
+    background-color: #585858;
+    background: none;
+   
+}
+
+.casilla{
+    color: #585858;
+    width: 70px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.oscura{
+    background-color: #585858;
+    font-size: 48px;
+    text-align: center;
+}
+
+.clara{
+    background-color: #BBBEC2;
+}
+
+#ficha_blanca1{
+    color: #fff;
+}

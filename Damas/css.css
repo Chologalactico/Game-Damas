@@ -1,0 +1,127 @@
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    background-image: url(/img/image.webp);   
+    width: 100%;
+    height: 100%;
+    
+} 
+
+.division1{
+    background-position: center;
+    text-align-last: center;
+    padding: 10%;
+}
+
+.titulo1{
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    font-size: 75px;
+    -webkit-text-stroke: 2px black;
+    
+
+}
+.Nosotros{
+  
+  background-position: center;
+  text-align-last: center;
+  
+}
+.Tu{
+  color: #fff;
+    font-family: 'Rock Salt', cursive;
+    font-size: 75px;
+    -webkit-text-stroke: 2px black;
+    
+}
+.noboton{
+  background-color: #FFF;
+  font-family: Arial,cursive;
+}
+.tipoletra{
+  font-family: Arial,cursive;
+  color: #fff;
+
+}
+.noimporta{
+  font-family: italic,cursive;
+}
+.Chino{
+
+    color: #fff;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-size: 35px;
+    -webkit-text-stroke: 2px black;
+}
+
+.division2{
+    text-align: center;
+}
+
+.Boton1{
+
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    background-color: #fff;
+    width: 30%;
+    height: 20%;
+}
+  * {
+    margin: 0px;
+    padding: 2px;
+    
+  }
+  
+  #sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 500ms linear;
+    
+  }
+  
+  #sidebar.active {
+    left: 0px;
+    
+  }
+  /* barra de tareaas el estilo de los espacios que ahi entre cada una de estas  */
+  #sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-align: center;
+    
+  }
+  
+  .logo {
+    border-radius: 50%; /*con esta puedo lograr que el logotipo se tranforme en un circulo*/
+    display: block;
+    margin: 0 auto; 
+    width: 100px;
+    height: 100px;
+  }
+  
+  #sidebar .toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+    
+  }
+  
+  #sidebar .toggle-btn span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #000;
+    
+  }  
+ 
